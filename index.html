@@ -4,13 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/main.css">    
+
+    <!--responsive-->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!--owl css-->
+    <link rel="stylesheet" href="/style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="/style/owl/owl.theme.default.min.css">
+
     <title>GameFlix</title>
 </head>
 <body>
     <header >
         <div class="container">
-            <h2 class="logo">GAMEFLIX</h2>
+            <h2 class="logo">GAMEFLIX</h2>            
             <nav>
                 <a href="">Inicio</a>
                 <a href="">Lançamentos</a>
@@ -26,13 +34,11 @@
                 <h3 class="titulo">The Legend of Zelda: Breath of the Wild</h3>
                 <p class="descricao">
                     The Legend of Zelda: Breath of the Wild is an action-adventure video game developed and published by Nintendo for the Nintendo Switch and Wii U video game consoles. The game is a part of The Legend of Zelda series, and follows amnesiac protagonist Link, who awakens from a hundred-year slumber to a mysterious voice that guides him to defeat Calamity Ganon before he can destroy the kingdom of Hyrule.
-                    The title's gameplay and mechanics constitute a departure from the series' usual conventions, featuring an open-world environment, a detailed physics engine, high-definition visuals, and voice acting. Announced in 2013, the game was initially planned for release as a Wii U exclusive in 2015, but was delayed twice prior to its release on March 3, 2017. Breath of the Wild was a launch title for the Switch, as well as the final Nintendo-produced game for the Wii U.                    
-                    Breath of the Wild received universal acclaim from critics, who deemed it to be one of the greatest video games of all time. Critics praised the game's open-ended, physics-driven gameplay that encourages player experimentation and exploration, with many calling it a landmark title in open-world game design, although minor criticism was directed at the game's technical performance at launch.
                 </p>
                 <div class="botoes">
                     <button role="button" class="botao">
                         <i class="fas fa-play"></i>
-                        Jogar
+                        <a href="https://www.youtube.com/watch?v=zw47_q9wbBE">Jogar</a>                        
                     </button>
                     <button role="button" class="botao">
                         <i class="fas fa-info-circle"></i>
@@ -43,7 +49,47 @@
         </div>
     </main>
 
+    <h2 class="carrosel-titulos">Mais jogados</h2>
+    <div class="carrosel-games">
+        <div class="owl-carousel owl-theme">            
+            <div class="item">
+                <img class="box-games" src="img/mini1.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-games" src="img/mini2.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-games" src="img/mini3.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-games" src="img/mini4.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-games" src="img/mini5.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-games" src="img/mini6.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-games" src="img/mini7.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-games" src="img/mini8.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-games" src="img/mini9.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-games" src="img/mini10.jpg" alt="">
+            </div>
+        </div>
+
+    </div>
+
     <script src="https://kit.fontawesome.com/d313d7b674.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
 
 </body>
 </html>

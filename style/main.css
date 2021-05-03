@@ -13,7 +13,7 @@
 
 body{
     background: var(--preta) ;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', Times, serif;
     color: white;
 }
 
@@ -28,7 +28,7 @@ header .logo{
     margin-left: 5px;
     color: var(--vermelho);
     font-family: 'Arial Black', Times;
-    font-size: 40px;
+    font-size: 25px;
 }
 
 header nav a{
@@ -39,6 +39,11 @@ header nav a{
 
 header nav a:hover{
     color: #FFF;
+}
+
+a:link { 
+ text-decoration:none;
+ color: white;
 }
 
 /*Game Principal*/
@@ -58,7 +63,7 @@ header nav a:hover{
 
 .game-principal .descricao{
     margin-top: 10px;
-    margin-bottom: 40px;
+    margin-bottom: 35px;
 }
 
 .game-principal .titulo{
@@ -87,4 +92,25 @@ header nav a:hover{
 
 .botao i{
     margin-right: 5px;
+}
+
+.container{
+    margin-left: 20px;
+}
+.game-principal .container{
+    width: 70%;
+}
+
+/*Box*/
+.carrosel-titulos{
+    margin-top: 15px;
+}
+
+.box-games{
+    width:350px;
+    height:450px;   
+}
+
+.carrosel-games {
+    margin-top: 15px;
 }
